@@ -41,11 +41,7 @@
 
 ---
 
-## 🖼️ Screenshots
 
-> *(Add screenshots here if available for visual reference)*
-
----
 
 ## 🛠️ Local Development Setup
 
