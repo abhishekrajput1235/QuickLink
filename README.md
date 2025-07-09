@@ -40,8 +40,8 @@
 | GET    | `/:urlCode`       | Redirect to the original URL    |
 
 ---
-## Demo Link
-https://quick-link-eight.vercel.app/
+# 🔗 Demo Link
+https://quick-link-kappa.vercel.app/
 
 ---
 ## 🛠️ Local Development Setup
