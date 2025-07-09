@@ -1,18 +1,9 @@
-// export const generateShortUrl = (): string => {
-//   const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-//   let result = '';
-//   for (let i = 0; i < 6; i++) {
-//     result += chars.charAt(Math.floor(Math.random() * chars.length));
-//   }
-//   return `https://short.ly/${result}`;
-// };
 
-// utils/api.ts
-// utils/api.ts
 import axios from 'axios';
 import { ShortenedURL } from '../types'; // adjust path if needed
 
-const API_BASE_URL = 'http://localhost:5000/api/v1';
+// const API_BASE_URL = 'http://localhost:5000/api/v1';
+const API_BASE_URL = 'https://quicklink-x9eh.onrender.com/api/v1';
 
 export const generateShortUrl = async (originalUrl: string): Promise<ShortenedURL> => {
   const response = await axios.post<ShortenedURL>(`${API_BASE_URL}/shorten`, { originalUrl });
