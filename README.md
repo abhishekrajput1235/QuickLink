@@ -40,12 +40,13 @@
 | GET    | `/:urlCode`       | Redirect to the original URL    |
 
 ---
+## Demo Link
+https://quick-link-eight.vercel.app/
 
-
-
+---
 ## 🛠️ Local Development Setup
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/quicklink.git
+git clone https://github.com/abhishekrajput1235/quicklink.git
 cd quicklink
