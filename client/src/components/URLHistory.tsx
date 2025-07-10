@@ -114,13 +114,13 @@ const URLHistory: React.FC<URLHistoryProps> = ({ urls, onDelete, onShowToast }) 
                       >
                         <Copy className="w-4 h-4" />
                       </button>
-                      <button
-                        onClick={() => handleCopy(url.originalUrl)}
+                      <a
+                        href={url.originalUrl} target='_blank'
                         className="text-gray-600 hover:text-gray-900 transition-colors p-2 rounded-lg hover:bg-gray-50"
                         title="Copy original URL"
                       >
                         <ExternalLink className="w-4 h-4" />
-                      </button>
+                      </a>
                       <button
                         onClick={() => handleDelete(url.id)}
                         className="text-red-600 hover:text-red-900 transition-colors p-2 rounded-lg hover:bg-red-50"
